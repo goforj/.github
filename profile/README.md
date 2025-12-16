@@ -61,17 +61,6 @@ GoForj is built around a few core principles:
 - **Production-first**  
   Everything is designed with real deployment environments in mind.
 
-## Getting Started
-
-Each GoForj package includes:
-
-- Clear installation instructions
-- Practical examples
-- API documentation
-- Benchmarks and test coverage
-
-You can start small by adopting a single package, or go all-in with the full GoForj toolchain.
-
 ## Community & Contribution
 
 GoForj is open-source and community-driven.
