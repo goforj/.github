@@ -34,6 +34,14 @@ Some of the core packages include:
 
 Each package is independently versioned, fully tested, documented, and usable on its own - but together they form a cohesive development experience.
 
+## High-Trust Libraries
+
+GoForj libraries are built to be trusted in production.
+
+All core packages target **100% test coverage**, enforce **strict CI**, include **benchmarks**, and expose **explicit, auditable APIs**. There is no hidden magic, no runtime surprises, and no accidental breaking behavior.
+
+GoForj aims to be the kind of dependency you don’t hesitate to ship.
+
 ## Philosophy
 
 GoForj is built around a few core principles:
@@ -63,19 +71,6 @@ Each GoForj package includes:
 - Benchmarks and test coverage
 
 You can start small by adopting a single package, or go all-in with the full GoForj toolchain.
-
-## Learning GoForj
-
-GoForj is designed to be approachable if you already know Go.
-
-Documentation lives directly alongside the code, with:
-
-- README-driven onboarding
-- Example-first explanations
-- Real-world usage patterns
-- Copy-paste-ready snippets
-
-As the ecosystem grows, additional guides, tutorials, and reference applications will be published to demonstrate full-stack GoForj applications in practice.
 
 ## Community & Contribution
 
