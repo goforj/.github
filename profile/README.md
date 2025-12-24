@@ -24,14 +24,6 @@ GoForj focuses on the things developers actually build: services, CLIs, APIs, wo
 
 GoForj is not a single framework - it’s a **forged toolkit** designed to work together or stand alone.
 
-Some of the core packages include:
-
-- **`collection`** - A fluent, generics-powered collection library with predictable performance.
-- **`env`** - Environment variable management with `.env` ergonomics and production safety.
-- **`crypt`** - Secure, application-level encryption inspired by Laravel’s Crypt facade.
-- **`godump`** - A beautiful, Laravel-style dumper for inspecting data during development.
-- **`forj`** - A CLI scaffolding and orchestration tool for generating full Go applications.
-
 Each package is independently versioned, fully tested, documented, and usable on its own - but together they form a cohesive development experience.
 
 ## High-Trust Libraries
