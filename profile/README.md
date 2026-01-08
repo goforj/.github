@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://goforj.dev" target="_blank">
-    <img src="https://raw.githubusercontent.com/goforj/docs/refs/heads/main/docs/assets/goforj-full.png" width="500" alt="GoForj Logo">
+    <img src="https://raw.githubusercontent.com/goforj/docs/refs/heads/main/docs/public/assets/goforj-full.png" width="500" alt="GoForj Logo">
   </a>
 </p>
 
