@@ -1,11 +1,3 @@
-<p align="center">
-  <a href="https://goforj.dev" target="_blank">
-    <img src="https://raw.githubusercontent.com/goforj/docs/refs/heads/main/docs/public/assets/goforj-full.png" width="500" alt="GoForj Logo">
-  </a>
-</p>
-
-## About GoForj
-
 GoForj is a modern Go ecosystem for building real-world applications with clarity, performance, and joy.
 
 We believe Go development should be **productive without being verbose**, **powerful without being complex**, and **opinionated without being restrictive**. GoForj takes the sharp edges off application development by providing a cohesive set of tools, libraries, and conventions inspired by the best parts of frameworks like Laravel-while remaining idiomatic, explicit, and fast.
