@@ -1,67 +1,46 @@
-GoForj is a modern Go ecosystem for building real-world applications with clarity, performance, and joy.
+<p align="center">
+  <a href="https://goforj.dev">
+    <img src="https://raw.githubusercontent.com/goforj/docs/main/docs/public/assets/goforj-v7.png" width="220" alt="GoForj">
+  </a>
+</p>
 
-We believe Go development should be **productive without being verbose**, **powerful without being complex**, and **opinionated without being restrictive**. GoForj takes the sharp edges off application development by providing a cohesive set of tools, libraries, and conventions inspired by the best parts of frameworks like Laravel-while remaining idiomatic, explicit, and fast.
+<p align="center">
+  <strong>Go tools forged for speed, clarity, and confidence.</strong>
+</p>
 
-GoForj focuses on the things developers actually build: services, CLIs, APIs, workers, schedulers, and tooling that scales from side projects to production systems.
+<p align="center">
+  <a href="https://goforj.dev">Documentation</a> ·
+  <a href="https://github.com/goforj/goforj">Application toolkit</a> ·
+  <a href="https://github.com/orgs/goforj/repositories">All projects</a>
+</p>
 
-### GoForj helps you with:
+GoForj is a growing ecosystem of focused Go libraries and application tooling. Each project works on its own, follows familiar Go conventions, and composes cleanly with the rest of the ecosystem.
 
-- Expressive, fluent APIs that feel natural in Go.
-- Strong defaults with explicit escape hatches.
-- Zero-magic design - no hidden globals, no runtime surprises.
-- Performance-first implementations with benchmarks and tests.
-- Excellent developer experience, from scaffolding to deployment.
+## What we’re building
 
-## The GoForj Ecosystem
+- **Application tooling:** [`goforj`](https://github.com/goforj/goforj) brings the ecosystem together with project scaffolding and a cohesive development workflow.
+- **Infrastructure:** [`cache`](https://github.com/goforj/cache), [`queue`](https://github.com/goforj/queue), [`storage`](https://github.com/goforj/storage), [`events`](https://github.com/goforj/events), and [`mail`](https://github.com/goforj/mail) provide focused APIs with pluggable backends.
+- **Developer foundations:** [`console`](https://github.com/goforj/console), [`execx`](https://github.com/goforj/execx), [`metrics`](https://github.com/goforj/metrics), and [`crypt`](https://github.com/goforj/crypt) cover common operational and application needs.
 
-GoForj is not a single framework - it’s a **forged toolkit** designed to work together or stand alone.
+Use one package or combine them. Adopting GoForj does not require adopting a monolithic framework.
 
-Each package is independently versioned, fully tested, documented, and usable on its own - but together they form a cohesive development experience.
+## How we build
 
-## High-Trust Libraries
+- **Explicit by default.** Configuration and behavior stay visible and auditable.
+- **Composable by design.** Small packages expose narrow APIs and avoid unnecessary coupling.
+- **Confidence through tests.** Core behavior, failure paths, and integrations are exercised in CI.
+- **Performance with evidence.** Benchmarks guide decisions where speed or allocation behavior matters.
 
-GoForj libraries are built to be trusted in production.
+## Project status
 
-All core packages target **100% test coverage**, enforce **strict CI**, include **benchmarks**, and expose **explicit, auditable APIs**. There is no hidden magic, no runtime surprises, and no accidental breaking behavior.
+GoForj is under active development and has not reached its first stable release. APIs may evolve while the ecosystem is being shaped and validated.
 
-GoForj aims to be the kind of dependency you don’t hesitate to ship.
+Follow the [documentation](https://goforj.dev), explore the [repositories](https://github.com/orgs/goforj/repositories), or open an issue on the relevant project to share feedback.
 
-## Philosophy
+## Contributing
 
-GoForj is built around a few core principles:
-
-- **Explicit over implicit**  
-  Configuration is visible. Behavior is predictable. You always know what your code is doing.
-
-- **Boring, proven primitives**  
-  We build on the Go standard library and battle-tested patterns.
-
-- **Developer experience matters**  
-  Clean APIs, helpful errors, readable docs, and real examples are not optional.
-
-- **Performance is a feature**  
-  Benchmarks are included. Allocations matter. Trade-offs are documented.
-
-- **Production-first**  
-  Everything is designed with real deployment environments in mind.
-
-## Community & Contribution
-
-GoForj is open-source and community-driven.
-
-Contributions are welcome in the form of:
-
-- Bug reports
-- Performance improvements
-- Documentation enhancements
-- New ideas and discussions
-
-If you care about building great tools for Go developers, you’re in the right place.
+Bug reports, documentation improvements, benchmarks, focused fixes, and design discussions are welcome. Please use the issue tracker for the project your contribution affects.
 
 ## License
 
-GoForj packages are open-sourced under the MIT license unless otherwise stated.
-
-<p align="center">
-  <strong>Forge better Go applications.</strong>
-</p>
+GoForj projects are released under the MIT license unless a repository states otherwise.
