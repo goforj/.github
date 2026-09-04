@@ -2,11 +2,11 @@
 
 ## Reporting a vulnerability
 
-Please report suspected vulnerabilities privately through the [GoForj private vulnerability reporting form](https://github.com/goforj/.github/security/advisories/new). Do not open a public issue, discussion, or pull request containing vulnerability details.
+If the [GoForj private vulnerability reporting form](https://github.com/goforj/.github/security/advisories/new) is available, please use it. Private vulnerability reporting must be enabled in GitHub before the form can accept a report. Otherwise, email [chris@milestech.co](mailto:chris@milestech.co). Do not open a public issue, discussion, or pull request containing vulnerability details.
 
 Include the affected repository and version or commit, a clear description of the impact, steps to reproduce, and any suggested mitigation. Reports that include a proof of concept should use only systems and data you are authorized to test.
 
-If GitHub does not let you submit the form, do not disclose the details publicly. Open a minimal issue in the affected repository asking a maintainer to provide a private reporting channel, without describing the vulnerability.
+If GitHub does not let you submit the form, use the email address above. Do not disclose vulnerability details publicly.
 
 ## What to expect
 
