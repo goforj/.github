@@ -33,9 +33,11 @@ Use one package or combine them. Adopting GoForj does not require adopting a mon
 
 ## Project status
 
-GoForj is under active development and has not reached its first stable release. APIs may evolve while the ecosystem is being shaped and validated.
+**The GoForj framework is in public beta.** Start building Go applications, explore the independently versioned libraries, and help shape the framework before 1.0.
 
-Follow the [documentation](https://goforj.dev), explore the [repositories](https://github.com/orgs/goforj/repositories), or open an issue on the relevant project to share feedback.
+[Get started](https://goforj.dev/getting-started/quickstart) · [Release status](https://goforj.dev/versions/#public-beta)
+
+Open an issue on the relevant project to share feedback.
 
 ## Contributing
 
