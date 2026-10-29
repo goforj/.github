@@ -14,15 +14,52 @@
   <a href="https://github.com/orgs/goforj/repositories">All projects</a>
 </p>
 
-GoForj is a growing ecosystem of focused Go libraries and application tooling. Each project works on its own, follows familiar Go conventions, and composes cleanly with the rest of the ecosystem.
+GoForj is a composable stack for building Go applications, with focused libraries for everyday code, HTTP, background work, and infrastructure. The `forj` CLI brings them together in generated projects with explicit wiring and app-owned source.
 
-## What we’re building
+Use the standalone libraries in an existing Go application, or [start a GoForj project](https://goforj.dev/getting-started/quickstart) to build APIs, workers, scheduled jobs, command-line tools, and web apps.
 
-- **Application tooling:** [`goforj`](https://github.com/goforj/goforj) brings the ecosystem together with project scaffolding and a cohesive development workflow.
-- **Infrastructure:** [`cache`](https://github.com/goforj/cache), [`queue`](https://github.com/goforj/queue), [`storage`](https://github.com/goforj/storage), [`events`](https://github.com/goforj/events), and [`mail`](https://github.com/goforj/mail) provide focused APIs with pluggable backends.
-- **Developer foundations:** [`console`](https://github.com/goforj/console), [`execx`](https://github.com/goforj/execx), [`metrics`](https://github.com/goforj/metrics), and [`crypt`](https://github.com/goforj/crypt) cover common operational and application needs.
+## Standalone libraries
 
-Use one package or combine them. Adopting GoForj does not require adopting a monolithic framework.
+### Everyday Go
+
+| Library | What it helps you build |
+| --- | --- |
+| [`collection`](https://github.com/goforj/collection) | Typed, fluent slice pipelines for mapping, filtering, sorting, grouping, and reducing. |
+| [`str`](https://github.com/goforj/str) | Immutable string transformations, Unicode-aware helpers, matching, and inflection. |
+| [`env`](https://github.com/goforj/env) | Typed environment configuration with dotenv loading, scoped keys, fallbacks, and required-value checks. |
+| [`crypt`](https://github.com/goforj/crypt) | Authenticated encryption for application payloads, with key rotation and compatibility with earlier payload formats. |
+| [`godump`](https://github.com/goforj/godump) | Readable dumps and diffs of Go values, with terminal and HTML output, cycle handling, and field redaction. |
+| [`null`](https://github.com/goforj/null) | Nullable SQL and JSON values with explicit null and zero-value behavior. Compatibility fork of `guregu/null` v6. |
+
+### HTTP and CLI applications
+
+| Library | What it helps you build |
+| --- | --- |
+| [`web`](https://github.com/goforj/web) | HTTP handlers, routing, middleware, WebSockets, and handler tests through focused contracts and an Echo adapter. |
+| [`httpx`](https://github.com/goforj/httpx) | Fluent HTTP clients with typed responses, authentication, retries, and request diagnostics, built on `req`. |
+| [`console`](https://github.com/goforj/console) | CLI output with semantic messages, tables, trees, interactive prompts, loaders, and progress indicators. |
+| [`execx`](https://github.com/goforj/execx) | Subprocess workflows with explicit arguments, streaming output, typed decoding, and TTY support. |
+| [`metrics`](https://github.com/goforj/metrics) | Application instrumentation with counters, gauges, histograms, snapshots, and Prometheus text output, using only the standard library. |
+
+### Background work and infrastructure
+
+| Library | What it helps you build |
+| --- | --- |
+| [`queue`](https://github.com/goforj/queue) | Background jobs with pluggable backends, workers, retries, delayed jobs, uniqueness, chains, and batches. |
+| [`events`](https://github.com/goforj/events) | Typed event publication and fan-out, in-process or through distributed pub/sub drivers such as NATS, Redis, Kafka, and Google Pub/Sub. |
+| [`scheduler`](https://github.com/goforj/scheduler) | Fluent cron, interval, and calendar schedules with filters, lifecycle hooks, and overlap protection. |
+| [`cache`](https://github.com/goforj/cache) | Local, distributed, and SQL-backed caching with typed helpers, locks, counters, and rate limits. |
+| [`storage`](https://github.com/goforj/storage) | One file-storage API for local disks, S3, Google Cloud Storage, Redis, SFTP, FTP, and rclone remotes. |
+| [`mail`](https://github.com/goforj/mail) | Fluent email composition with delivery drivers for SMTP, SES, Resend, Postmark, Mailgun, and SendGrid. |
+
+## Application and developer tooling
+
+| Project | What it provides |
+| --- | --- |
+| [`goforj`](https://github.com/goforj/goforj) | The application stack and `forj` CLI: project creation, component wiring, Vue/React/templ + htmx starters, and a local development workflow. |
+| [`wire`](https://github.com/goforj/wire) | Compile-time dependency injection with generation caching, watch mode, and `go tool` support. Maintained fork of Google Wire, usable in any Go project. |
+| [`atlas`](https://github.com/goforj/atlas) | Project guidance, skills, and MCP tools that help coding agents inspect and navigate GoForj applications. |
+| [`harbor`](https://github.com/goforj/harbor) | A local development control plane for project domains, HTTPS, and service endpoints. **Development preview.** |
 
 ## How we build
 
