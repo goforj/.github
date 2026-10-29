@@ -29,7 +29,6 @@ Use the standalone libraries in an existing Go application, or [start a GoForj p
 | [env](https://github.com/goforj/env) | Typed environment configuration with dotenv loading, scoped keys, fallbacks, and required-value checks. |
 | [crypt](https://github.com/goforj/crypt) | Authenticated encryption for application payloads, with key rotation and compatibility with earlier payload formats. |
 | [godump](https://github.com/goforj/godump) | Readable dumps and diffs of Go values, with terminal and HTML output, cycle handling, and field redaction. |
-| [null](https://github.com/goforj/null) | Nullable SQL and JSON values with explicit null and zero-value behavior. Compatibility fork of `guregu/null` v6. |
 
 ### HTTP and CLI applications
 
